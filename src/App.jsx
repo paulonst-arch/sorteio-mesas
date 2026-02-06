@@ -242,8 +242,6 @@ const TableLotteryApp = () => {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white p-4" style={{ fontFamily: "'Playfair Display', serif" }}>
         <style>{`
-          @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&display=swap');
-          
           .gradient-border {
             background: linear-gradient(135deg, #d4a853, #c49647, #d4a853);
             background-size: 200% auto;
@@ -360,8 +358,6 @@ const TableLotteryApp = () => {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center p-4 relative overflow-hidden" style={{ fontFamily: "'Playfair Display', serif" }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&display=swap');
-        
         @keyframes spin-roulette {
           0% { transform: scale(1) rotate(0deg); }
           50% { transform: scale(1.15) rotate(180deg); }
